@@ -1,4 +1,4 @@
-// C program for Merge Sort
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -53,6 +53,8 @@ void merge(int arr[], int l,
 		arr[k] = L[i];
 		i++;
 		k++;
+
+//do not move
 	}
 
 	// Copy the remaining elements of
